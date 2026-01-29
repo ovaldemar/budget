@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор зарплаты на JavaScript</title>
+</head>
+<body>
+    <p>
+        Загрузите табель-график
+        <input type="file" id="fileInput" accept=".xlsx, .xls, .xlsm">
+    </p>
+
+    <p>
+
+    <p>
+        Сотрудник
+        <select id="familySelect">
+            <option value="">
+                ---Выбор сотрудника---
+            </option>
+        </select>
+    </p>
+        Должность
+        <select id="positionSelect">
+            <option value="">
+                ---Выберите должность---
+            </option>
+        </select>
+    </p>
+
+    <p>
+        Оклад
+        <input type="number" id="salary">
+    </p>
+
+    <p>
+        Количество дневных смен
+        <input type="number">
+    </p>
+
+    <p>
+        Количество ночных смен
+        <input type="number" id="night">
+    </p>
+
+    <p>
+        Обеденные
+        <input type="number" id="lunch">
+    </p>
+
+    <p>
+        Вредность
+        <input type="number">
+    </p>
+
+    <button id="calcBtn">
+        Расчитать
+    </button>
+
+    <p id="result">
+        Итого: 0
+    </p>
+    <script src="https://cdn.jsdelivr.net/npm/xlsx/dist/xlsx.full.min.js"></script>
+    <script type="module" src="./scripts/app.js"></script>
+</body>
+</html>
