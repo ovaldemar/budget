@@ -2,25 +2,19 @@
     {
         "id": 1,
         "name": "Оператор 1-ого разряда",
-        "salary": 500,
-        "night": 500,
-        "lunch": 70,
-        "harm": 200
+        "salary": 2590,
+        "lunch": 70
     },
     {
         "id": 2,
         "name": "Оператор 2-ого разряда",
-        "salary": 500,
-        "night": 500,
-        "lunch": 70,
-        "harm": 200
+        "salary": 3105,
+        "lunch": 70
     },
     {
         "id": 3,
         "name": "Оператор 3-его разряда",
-        "salary": 500,
-        "night": 500,
-        "lunch": 70,
-        "harm": 200
+        "salary": 3790,
+        "lunch": 70
     }
 ]

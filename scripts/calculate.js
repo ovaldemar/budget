@@ -1,4 +1,4 @@
-export function calculate(data) {
+export function calculate() {
 
     const salary = Number(document.getElementById("salary").value);
 
@@ -8,7 +8,7 @@ export function calculate(data) {
 
     const shifts = Number(document.getElementById("quantity").value);
 
-    const nights = Number(document.getElementById("nightCount").value);
+    const nights = Number(night.value);
     
     const lunchPrice = Number(document.getElementById("lunch").value);
 
